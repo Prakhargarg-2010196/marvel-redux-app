@@ -1,0 +1,23 @@
+.container{
+    padding:20px 0;
+    background-color: rgb(31, 31, 31);
+    color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.searchInput{
+    border: dotted ;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 50%;
+    text-align: center;
+    text-transform: capitalize;
+    padding:10px 0 10px 0;
+    text-overflow: ellipsis;
+    border-color: rgb(76, 196, 252);
+}
