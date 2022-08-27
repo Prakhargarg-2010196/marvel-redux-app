@@ -12,8 +12,8 @@ import NotFoundPage from './pages/not-found-page/NotFoundPage';
 function App() {
   return (
     <>
-    <Header/>
     <Router>
+    <Header/>
       <Routes>
         <Route path='/'>
           <Route path="comicPage" element={<ComicsPage/>}/>

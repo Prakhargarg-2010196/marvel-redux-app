@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:10vh;
+    background-color:#363636da;
+    box-shadow:1px 0.1px 10px 5px #ffffff  ;
+    position: sticky;
+    right:0;
+    left:0;
+
+}
+.buttonContainer{
+    display:flex;
+    gap:20px;
+    justify-self: flex-end;
+}
+.button{
+    border-radius:20px;
+    padding: 0 30px;
+    margin:10px 0;
+    
+    color:#e9ecef;
+    background-color:#212529;
+     
+}
+.logo{
+    width: 4em;
+    margin-left:20px;
+    padding:6px;
+}
