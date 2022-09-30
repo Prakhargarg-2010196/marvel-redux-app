@@ -1,4 +1,7 @@
-
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* Style guide for naming 
     Filenames:
     -components: PascalCase

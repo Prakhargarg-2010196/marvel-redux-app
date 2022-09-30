@@ -1,12 +1,10 @@
-import { MARVEL_API_PRIVATE_KEY, MARVEL_API_PUBLIC_KEY } from "../constants/apiDetails";
-
 import CryptoJS from "crypto-js";
 
 class ApiHashedUrlGenerator{
-
+  
   constructor(){
-    this.apiKey=MARVEL_API_PUBLIC_KEY;
-    this.privateKey=MARVEL_API_PRIVATE_KEY;
+    this.apiKey = process.env.REACT_APP_PUBLIC_KEY||"";
+    this.privateKey = process.env.REACT_APP_PRIVATE_KEY || "";
     this.timeStamp=this.getTimeStamp();
   }
   getTimeStamp()
@@ -21,6 +19,7 @@ class ApiHashedUrlGenerator{
   
   getApiRemainingUrl()
   {
+    console.log(process.env.REACT_APP_MARVEL_API_PRIVATE_KEY);
    return `?ts=${this.timeStamp}&apikey=${this.apiKey}&hash=${this.getHash()}` 
   }
 }

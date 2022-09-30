@@ -3,8 +3,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     height:10vh;
-    background-color:#363636da;
-    box-shadow:1px 0.1px 10px 5px #ffffff  ;
+    background-color:#f0141e;
+    box-shadow:1px 0.1px 10px 5px #fce5e5  ;
     position: sticky;
     right:0;
     left:0;
@@ -18,14 +18,14 @@
 .button{
     border-radius:20px;
     padding: 0 30px;
-    margin:10px 0;
+    margin:10px 20px;
     
     color:#e9ecef;
     background-color:#212529;
      
 }
 .logo{
-    width: 4em;
+    width: 6em;
     margin-left:20px;
     padding:6px;
 }
