@@ -84,3 +84,6 @@ transform:rotateY(-180deg);
     color:white;
     text-align: center;
 }
+@media screen and(max-width:480px){
+    
+}

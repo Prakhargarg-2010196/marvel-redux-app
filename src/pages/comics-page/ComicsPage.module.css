@@ -16,3 +16,10 @@
     column-gap: 1.2em;
     row-gap: 1em;
 }
+@media screen and (max-width:480px){
+    .comicsContainer{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        
+    }
+}

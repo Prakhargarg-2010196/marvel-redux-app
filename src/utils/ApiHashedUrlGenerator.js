@@ -18,8 +18,7 @@ class ApiHashedUrlGenerator{
   }
   
   getApiRemainingUrl()
-  {
-    console.log(process.env.REACT_APP_MARVEL_API_PRIVATE_KEY);
+  { 
    return `?ts=${this.timeStamp}&apikey=${this.apiKey}&hash=${this.getHash()}` 
   }
 }

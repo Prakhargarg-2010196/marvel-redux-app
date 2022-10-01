@@ -13,7 +13,7 @@ const Header = () => {
         {/* <SearchBar></SearchBar> */}
           <div className={hd.buttonContainer}>
           <button className={hd.button}><Link  to="/comicPage"> Comics</Link></button>
-            <button className={hd.button}>Characters</button>
+          <button className={hd.button}>Characters</button>
           
           </div>
         </div>
