@@ -1,9 +1,11 @@
 import { combineReducers } from "@reduxjs/toolkit";
-// import searchSlice from "./search-slice/searchSlice";
+import marvelCharacterSlice from "./slices/marvel-slices/marvelCharacterSlice";
+import marvelComicsSlice from "./slices/marvel-slices/marvelComicsSlice";
 
 const rootReducer = combineReducers({
-    // search:searchSlice,
-  })    
+    comics: marvelComicsSlice,
+    characters:marvelCharacterSlice
+});  
 
 
 export default rootReducer

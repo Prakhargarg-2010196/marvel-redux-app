@@ -1,0 +1,18 @@
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 100px; */
+    background-color: #343a40;
+    color:aliceblue;
+    min-height:100vh;
+    overflow: scroll;
+    
+}
+.comicsContainer{
+    padding-top:2em;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    column-gap: 1.2em;
+    row-gap: 1em;
+}

@@ -6,4 +6,4 @@ const IndividualCharacterPage = () => {
   )
 }
 
-export default IndividualCharacterPage
+export default IndividualCharacterPage 
