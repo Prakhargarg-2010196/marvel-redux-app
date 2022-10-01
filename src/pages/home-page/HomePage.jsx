@@ -19,10 +19,13 @@ const HomePage = () => {
                     bg-no-repeat
                     bg-left
                     bg-cover
-                    h-screen'>
+                    min-h-screen'>
       <div className='mx-auto 
-                      my-auto
+                      pt-3.5
+                      md:pt-20
                       flex
+                      flex-col
+                      md:flex-row
                       gap-5'>
         <Card cardTitle={"Characters"} 
           cardImageSource={Characters}
